@@ -1,0 +1,17 @@
+
+<h1>pipes in angular</h1>
+  <h2>currency pipes</h2>
+<p>{{ 22 | currency: "INR" }}  </p>
+<h2>DAte pipes</h2>
+<p>{{ today | date: "dd/MM/Y hh:mm:ss a " | uppercase  }}</p>
+
+<h2>slicepipe</h2>
+<p>{{ Fruits | slice:1:4 }}</p>
+<p>{{ 8.7589623 | number:"1.2-5" }}</p>
+<p>{{0.12432 | percent}}</p>
+<p>{{ car | json }}</p>
+
+<hr />
+<h3>angular custom pipes</h3>
+<p>ng g pipe pipeName</p>
+<p>{{ 5 | square}}</p>
